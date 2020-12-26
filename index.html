@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>MineCommander - 欢迎来到DIM0！</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/index_menu.css">
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li>
+                <a>标题一</a>
+            </li>
+            <li>
+                <a>标题二</a>
+            </li>
+            <li>
+                <a>标题三</a>
+            </li>
+            <li>
+                <a>标题四</a>
+            </li>
+            <li>
+                <a>标题五</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/load_file.js"></script>
+    <script>
+        document.getElementById('content').innerHTML =
+            marked(loadFile('markdown/index.md'));
+    </script>
+
+</body>
+
+</html>
