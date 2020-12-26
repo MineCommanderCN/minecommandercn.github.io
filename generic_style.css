@@ -15,12 +15,6 @@
     list-style: none;
 }
 
-#menu img {
-    position: fixed;
-    top: 30px;
-    right: 15%;
-}
-
 #menu ul li {
     text-align: center;
     float: left;
