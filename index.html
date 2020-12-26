@@ -5,29 +5,14 @@
     <meta charset="utf-8" />
     <title>MineCommander - 欢迎来到DIM0！</title>
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/index_menu.css">
+    <link rel="stylesheet" type="text/css" href="generic_style.css" />
+    <link rel="import" href="navigation_menu.html" id="menu" />
 </head>
 
 <body>
-    <div id="menu">
-        <ul>
-            <li>
-                <a>标题一</a>
-            </li>
-            <li>
-                <a>标题二</a>
-            </li>
-            <li>
-                <a>标题三</a>
-            </li>
-            <li>
-                <a>标题四</a>
-            </li>
-            <li>
-                <a>标题五</a>
-            </li>
-        </ul>
-    </div>
+    <script id="menu">
+        document.write(menu.import.body);
+    </script>
 
 
     <div id="content"></div>
