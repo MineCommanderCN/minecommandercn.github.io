@@ -3,10 +3,12 @@
 #menu {
     position: fixed;
     height: 65px;
+    top: -10px;
     width: 80%;
     right: 10%;
     border-bottom: 2px solid #000000;
     background-color: rgb(255, 255, 255);
+    z-index: 2;
 }
 
 #menu ul {
@@ -37,4 +39,5 @@
     width: 80%;
     bottom: -120px;
     right: -10%;
+    z-index: 1;
 }
