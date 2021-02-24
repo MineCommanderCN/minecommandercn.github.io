@@ -20,18 +20,18 @@
 
 title: MineCommander @DIM0
 email: minecommander@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Awesome!
+description: ''
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ''
 github_username:  MineCommanderCN
 
 # Build settings
-remote_theme: MineCommanderCN/jekyll-theme-chirpy
+remote_theme: pages-themes/tactile
 plugins:
   - jekyll-feed
 
+show_downloads: false
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -51,97 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# Settings from Chirpy
-tagline: 个人网站与博客
-author: MineCommander
-github:
-  username: MineCommanderCN
-
-social:
-  name: MineCommander
-  email: minecommander@outlook.com
-  links:
-  - https://zhihu.com/people/MineCommander
-  - https://github.com/MineCommanderCN
-
-theme_mode: dark
-avatar: https://i.loli.net/2021/02/24/58hWBg1EPwFvypm.png
-toc: true
-paginate: 10
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: highlight
-    # default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-permalink: /posts/:title/
-
-collections:
-  tabs:
-    output: true
-    sort_by: order
-
-
-defaults:
-  -
-    scope:
-      path: ''          # An empty string here means all files in the project
-      type: posts
-    values:
-      layout: post
-      comments: true    # Enable comments in posts.
-      toc: true         # Display TOC column in posts.
-  -
-    scope:
-      path: _drafts
-    values:
-      comments: false
-  -
-    scope:
-      path: ''
-      type: tabs             # see `site.collections`
-    values:
-      layout: page
-      permalink: /:title/
-      dynamic_title: true    # Hide title in mobile screens.
-
-sass:
-  style: compressed
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
-
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - '*.gem'
-  - '*.gemspec'
-  - tools
-  - docs
-  - README.md
-  - LICENSE
-  - gulpfile.js
-  - node_modules
-  - package.json
-  - package-lock.json
-
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
