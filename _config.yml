@@ -1,97 +1,74 @@
-# The Site Configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Import the theme
-theme: jekyll-theme-chirpy
+title: MineCommander @DIM0
+email: minecommander@outlook.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Awesome!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ''
+github_username:  MineCommanderCN
 
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
-baseurl: ''
+# Build settings
+remote_theme: MineCommanderCN/jekyll-theme-chirpy
+plugins:
+  - jekyll-feed
 
-# the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: zh-CN
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# --------------------------
-title: MineCommander @DIM0                          # the main title
-
-tagline: 个人网站与博客   # it will display as the sub-title
-
-description: >-                        # used by seo meta and the atom feed
-  想看点啥？
-
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://minecommandercn.github.io'
-
-author: MineCommander                  # change to your full name
-
+# Settings from Chirpy
+tagline: 个人网站与博客
+author: MineCommander
 github:
-  username: MineCommanderCN             # change to your github username
-
-twitter:
-  username: ''            # change to your twitter username
+  username: MineCommanderCN
 
 social:
-  name: MineCommander                  # it will shows as the copyright owner in Footer
-  email: minecommander@outlook.com             # change to your email address
+  name: MineCommander
+  email: minecommander@outlook.com
   links:
-    # The first element serves as the copyright owner's link
-    - https://zhihu.com/people/MineCommander      
-    - https://github.com/MineCommanderCN
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+  - https://zhihu.com/people/MineCommander
+  - https://github.com/MineCommanderCN
 
-google_site_verification: google_meta_tag_verification # change to your verification string
-# --------------------------
-
-google_analytics:
-  id: ''          # Fill with your Google Analytics ID
-  pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
 theme_mode: dark
-
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn: ''
-
-# the avatar on sidebar, support local or CORS resources
 avatar: https://i.loli.net/2021/02/24/58hWBg1EPwFvypm.png
-
-# boolean type, the global switch for ToC in posts.
 toc: true
-
-disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
 paginate: 10
-
-# ------------ The following options are not recommended to be modified ------------------
-
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
@@ -102,9 +79,6 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
-# DO NOT change this unless you're a Pro user on Jekyll and Web development,
-# Or you think you're smart enough to change other relevant URLs within this template.
 permalink: /posts/:title/
 
 collections:

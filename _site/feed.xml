@@ -1,119 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-24T17:01:18+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2021/02/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-24T16:38:30+08:00</published><updated>2021-02-24T16:38:30+08:00</updated><id>http://localhost:4000/jekyll/update/2021/02/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/02/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://minecommandercn.github.io/</id>
-  <title>MineCommander @DIM0</title>
-  <subtitle>想看点啥？</subtitle>
-  <updated>2021-02-24T13:10:19+08:00</updated>
-  <author>
-    <name>MineCommander</name>
-    <uri>https://minecommandercn.github.io/</uri>
-  </author>
-  <link rel="self" type="application/atom+xml" href="https://minecommandercn.github.io/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="zh-CN"
-    href="https://minecommandercn.github.io/"/>
-  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2021 MineCommander </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-  
-  <entry>
-    <title>The Diver - 下载引导</title>
-    <link href="https://minecommandercn.github.io/posts/The-Diver/" rel="alternate" type="text/html" title="The Diver - 下载引导" />
-    <published>2021-02-05T16:45:00+08:00</published>
-  
-    <updated>2021-02-05T16:45:00+08:00</updated>
-  
-    <id>https://minecommandercn.github.io/posts/The-Diver/</id>
-    <content src="https://minecommandercn.github.io/posts/The-Diver/" />
-    <author>
-      <name>MineCommander</name>
-    </author>
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-  
-    
-    <category term="Minecraft" />
-    
-    <category term="作品" />
-    
-  
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-MCBBS原帖：https://www.mcbbs.net/thread-1164947-1-1.html
-
-原地图下载：https://minecommander.lanzous.com/b0106ovud（密码d93f）
-
-更新包下载：https://minecommander.lanzous.com/b0106ovyh
-（密码bfey）
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>【TCP|skeleton小白】在MC中实现（伪）数组操作</title>
-    <link href="https://minecommandercn.github.io/posts/%E5%9C%A8MC%E4%B8%AD%E5%AE%9E%E7%8E%B0-%E4%BC%AA-%E6%95%B0%E7%BB%84%E6%93%8D%E4%BD%9C/" rel="alternate" type="text/html" title="【TCP|skeleton小白】在MC中实现（伪）数组操作" />
-    <published>2020-12-31T11:09:00+08:00</published>
-  
-    <updated>2020-12-31T11:09:00+08:00</updated>
-  
-    <id>https://minecommandercn.github.io/posts/%E5%9C%A8MC%E4%B8%AD%E5%AE%9E%E7%8E%B0-%E4%BC%AA-%E6%95%B0%E7%BB%84%E6%93%8D%E4%BD%9C/</id>
-    <content src="https://minecommandercn.github.io/posts/%E5%9C%A8MC%E4%B8%AD%E5%AE%9E%E7%8E%B0-%E4%BC%AA-%E6%95%B0%E7%BB%84%E6%93%8D%E4%BD%9C/" />
-    <author>
-      <name>MineCommander</name>
-    </author>
-
-  
-    
-    <category term="Minecraft" />
-    
-    <category term="搬运" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      原作者：skeleton小白
-
-https://www.mcbbs.net/forum.php?mod=viewthread&amp;amp;tid=901171
-
-转载于：2020/12/31
-
-原作于：2019/8/12
-
-
-
-警告： 观看此贴前你可能需要一些编程基础，对基本数据结构有所掌握
-
-众所周知，MC指令作为一款功能强大的编程语言已经可以实现许多的计算操作，但是想要编程，必然少不了数组的使用。那么，在MC中是否也可以实现数组操作呢？答案是肯定的。
-为方便讲解，以下指令全都基于在~ ~ ~处有一个箱子，其中第一格放了一个物品，物品在tag标签下有一个variables专门用于记录各种变量。
-（数组与list并不是一个东西，但因为在这里用途相似，所以下文不做区分）
-
-在nbt中有一个很类似于数组的东西，那就是list。我们可以用data指令很方便地修改或获取其中的数值，例如/data...
-    </summary>
-  
-
-  </entry>
-
-</feed>
-
-
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
